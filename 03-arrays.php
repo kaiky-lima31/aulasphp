@@ -48,10 +48,12 @@ echo "<p>{$livro["titulo"]}</p>"
 <h2>Analisando extruturas de arrays
 usando print_setdump()</h2>
 
+<!-- Comandos sem formatação -->
 <?=print_r($bandas)?>
 <br> <br>
 <?=var_dump($bandas)?>
 
+<!-- Com formatação usando tag <pre> -->
 <pre><?=print_r($bandas)?></pre>
 <pre><?=var_dump($bandas)?></pre>
 
