@@ -21,7 +21,12 @@ if($salario < 1500) {
     $novoSalario = $salario * 1.05;
 }
 ?>
-<p>O salario antido era de <?=$salario?> <br>
-Após o reajuste o salario ficou de <?=$novoSalario?><p>
+<p>
+     Sálario antido: <?=number_format($salario, 2, ",", ",")?>
+</p>
+
+<p>
+    Sálario novo: <?=number_format($novoSalario, 2, ",", ",")?>
+</p>
 </body>
 </html>
