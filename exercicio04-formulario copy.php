@@ -11,7 +11,7 @@
 <body>
     <h1>Exercicío 4</h1>
     <hr>
-    <form autocomplete="off" action="exercicio-dados.php" method="post">
+    <form autocomplete="off" action="exercicio04-dados.php" method="post">
 <p>
         <label for="nome">Nome do produto:</label>
         <input type="text" id="nome" name="nome" required>
@@ -26,10 +26,10 @@
             <option value="Sansumg">Sansumg</option>
         </select>
 </p>
-
+ <!--foreach - para todos, (as) para todos.   -->
 <p>
         <label for="preco">Preço:</label>
-        <input type="number" id="preco" name="preco" min="100" max="300" step="0.01" required>
+        <input type="number" id="preco" name="preco" min="100" max="10000" step="0.01" required>
 </p>
 
 <p>
